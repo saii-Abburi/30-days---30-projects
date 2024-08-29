@@ -1,0 +1,2 @@
+This is the day -1 project .
+This project mainly focuses on getting the current weather of different cities by their name using free api
