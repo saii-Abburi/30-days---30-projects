@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Noto Sans;
+    user-select: none;
+    box-sizing: border-box; 
+}
+
+.container{
+    width: 100%;
+    min-height:100vh;
+    background: linear-gradient(135deg,#cf9aff,#95c0ff);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%; 
+    margin: 0 auto; 
+}
+
+.container h1{
+    display: flex;
+    align-content: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.container h1 img{
+    width: 60px;
+}
+
+.container button img{
+   width: 25px;
+   margin-right: 12px;
+}
+.container button{
+   align-items: center;
+    background: linear-gradient(#9418fd,#571094);
+    font-size: 16px;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px auto 20px ; /* Center the button */
+}
+
+.notes{
+
+    gap: 20px; 
+}
+
+.inputbox{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.inputbox img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    cursor: pointer;
+    right: 15px;
+}
+
+@media (max-width:600px) {
+    .container{
+        width: 100%; 
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: 100vh;
+    }
+
+    .notes {
+        gap: 20px;
+    }
+
+    .inputbox {
+        width: 100%; 
+        max-width: 90%; 
+        margin: 50px auto; 
+    }
+}
