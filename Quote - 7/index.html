@@ -11,11 +11,13 @@
 <body>
     <div class="quote">
         <h2>Quote of the Day</h2>
-        <blockquote id="quoteMessage">Loading...</blockquote>
-        <span id="quoteAutor">Loading....</span>
+            <blockquote id="quoteMessage">Loading...</blockquote>
+            <span id="quoteAutor">Loading....</span>
         <div class="buttons">
             <button onclick="getQuote(apiURl);">New Quote</button>
-            <button onclick="tweet()"><img src="New-Twitter-Logo.png">Tweet</button>
+            <!-- <button onclick="tweet()"><img src="New-Twitter-Logo.png">Tweet</button> -->
+            <button onclick="copyQuote()">Copy</button>
+            <span id="alert" class="alert" ></span>
         </div>
     </div>
 

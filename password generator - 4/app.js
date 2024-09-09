@@ -1,7 +1,7 @@
 const passwordBox = document.getElementById("password");
 const length = 12;
 
-const container = document.getElementsByClassName("container")[0]; // Corrected this line
+const container = document.getElementsByClassName("container")[0]; 
 
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowerCase = "abcdefghijklmnopqrstuvwxyz";

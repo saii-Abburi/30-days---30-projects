@@ -95,6 +95,7 @@ body {
     align-items: center;
     margin: 5px;
     cursor: pointer;
+    position: relative;
 }
 .quote div button img{
     width: 25px;
@@ -104,4 +105,11 @@ body {
 .quote div button:nth-child(2){
     background:#fff;
     color: black;
+}
+
+span.alert{
+    font-size: 23px;
+    margin: 20px;
+    position: relative;
+    display: none;
 }
